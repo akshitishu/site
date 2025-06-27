@@ -66,15 +66,15 @@
 }
 .navbar_btn{
     display: flex;
-      align-items: center;
     justify-content: center;
+    align-items: center;
     padding: 0 1rem;
     width: 100%;
 }
 .button{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-decoration: none;
     padding: 10px 20px;
     height: 100%;
@@ -115,21 +115,5 @@
         height: 50vh;
         z-index: -1;
     }
-    .navbar_menu.active{
-        background: #131313;
-        top: 100%;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: 99;
-        height: 50vh;
-        font-size: 1.6rem;
-    }
-    #navbar_logo{
-        padding-left: 25px;
-    }
-    .navbar_toggle.bar{
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-    }
+    
 }
