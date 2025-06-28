@@ -175,7 +175,7 @@
     }
     #mobile-menu.is-active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
-    }
+    }}
     .main{
         background-color: #141414;
     }
@@ -193,6 +193,12 @@
         padding: 0  50px;
     }
     .main_content h1{
-        
+        font-size: 4rem;
+        background-color: #ff8177;
+        background-image: linear-gradient(to top,#ff0844 0%,#ffb199 100%);
+        background-size: 100%;
+            -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
     }
-}
